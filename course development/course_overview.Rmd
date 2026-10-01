@@ -24,6 +24,14 @@ Our specific goal is to introduce students to a data science approach to species
 - learn about common data used for species conservation (species occurrences) and an online tool that stores such data for species around the world (GBIF - the Global Biodiversity Information Facility)
 - introduce the concept of 'species distribution modeling' and how it can be used to examine species range shifts through time.
 
+## Funding
+Development of this course was supported by [US National Science Foundation grant 2149416](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2149416) to Jessica Blois at UC Merced. 
+
+```{r, include = FALSE, results = 'hide'}
+
+# Note for instructors: Please do not delete the Funding section of this course. If you modify this section to add additional funding sources, you must always retain the NSF funding source to Jessica Blois that supported original development of this course.
+
+```
 
 ## Instructors
 
@@ -32,6 +40,9 @@ Jessica is a Professor of Biology and Environmental System Science at UC Merced.
 
 ### Nathaniel Brown
 Nat is a PhD student in the Quantitative and Systems Biology graduate group at UC Merced, working in the [Xu Lab](https://xulab.ucmerced.edu/).
+
+### Val Syverson
+Note that Val Syverson, former postdoc in the Blois lab, created, revised, and led this course for the Bobcat Summer STEM Academy in 2023 and 2024. It was led by Jessica Blois in 2025. Nat Brown supported the course all three years.
 
 ## Schedule
 
