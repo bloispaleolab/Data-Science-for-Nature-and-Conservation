@@ -1,0 +1,108 @@
+---
+title: "Data Science for Nature and Conservation: Workshop Overview"
+authors: "Jessica Blois"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Course Goals
+
+When the environment changes, organisms can either move, adapt, or die out. Over the next three days, we’ll use the open source program R to analyze ecological and climatic data, explore how species’ geographic ranges shifted as climate changed in the past, and predict what might happen to them with future climate change.
+
+Our specific goal is to introduce students to a data science approach to species conservation, especially the following:
+
+- introduce the programming environment R
+- learn how to clean messy data
+- learn about common data used for species conservation (species occurrences) and an online tool that stores such data for species around the world (GBIF - the Global Biodiversity Information Facility)
+- introduce the concept of 'species distribution modeling' and how it can be used to examine species range shifts through time.
+
+
+## Instructors
+
+### Dr. Jessica Blois
+Jessica is a Professor of Biology and Environmental System Science at UC Merced. Her research focuses on how mammals and vegetation respond to environmental and climatic change in the  past, present, and future climate changes. She gets out into the field and hikes around the Sierra Nevada mountains looking for living small mammals (think squirrels, voles, mice, etc) and she also digs into the sediment in search of fossils - both animal remains as well as bits and pieces of past plant life. She teaches classes like "Fundamentals of Organismal Biology" and "Paleoecology" and loves to work with students at UC Merced. Learn more about her research at her [lab website](https://jessicablois.com/).
+
+### Nathaniel Brown
+Nat is a PhD student in the Quantitative and Systems Biology graduate group at UC Merced, working in the [Xu Lab](https://xulab.ucmerced.edu/).
+
+## Schedule
+
+### Logistics
+We will work each day in COB1 281, following the overall Bobcat Summer STEM Academy schedule.
+
+Each computer has a folder in the network drive, which is labeled with the class name ('Data Science for Nature and Conservation').  All files can be found here.
+
+We will be using a program called R for our programming, with a graphical userface called "RStudio" that makes navigating R much easier. Each person has both R and RStudio installed on your computer, but you only really need to 'interact' with RStudio.
+
+### Day 1
+We will start this day with an introduction to the course, then spend the rest of the morning learning how to use R. In the afternoon, we will learn about species geographic distributions. We will work with real, messy data; learn how to clean up and plot the data; and develop a simple range map for the species. We will also start to learn about and work with environmental data.
+
+#### 9:05-10:20 - Session 1
+- 9:05 - 9:30am Introductions & Course Overview
+- 9:30 - 10:20am Day 1 Tutorial. Parts 1 & 2
+
+#### 10:20-10:30 - Snack Time 
+
+#### 10:30-11:55 - Session 2
+- Day 1 Tutorial. Wrap up Part 2 and start Part 3
+
+#### 12:00-12:45pm - Lunch @ Pavilion 
+
+#### 1:00-3:15 - Session 3
+- 1:00 - 3:00pm Day 1 Tutorial. Parts 3 and 4
+- 3:00 - 3:15pm Day 1 Tutorial. Part 5, save your work
+
+### Day 2
+We will learn how to develop a model that relates species occurrences in space to their environment, ie., a species distribution model. In the morning, we will do this using data for contemporary occurrences of species. In the afternoon, we will work with different species, for which we have fossil occurrences. We will first learn about paleoclimate, then we will build a species distribution model using data from three different time periods in the past. Then, we will use our model to make predictions about where the species was located in the past and in the future.  
+
+9:05-10:20 - Session 1
+
+- Day 2 Tutorial, Part 1
+
+10:20-10:30 - Snack Time 
+
+10:30-11:55 - Session 2
+
+- Day 2 Tutorial, Part 1 continued
+
+12:00-12:45pm - Lunch @ Pavilion 
+
+1:00-3:15 - Session 3
+
+- 1:00 - 3:00pm Day 2 Tutorial, Parts 2-3
+- 3:00 - 3:15pm Day 2 Tutorial. Part 4, save your work
+
+### Day 3
+On the final day, we will visit the library to see a fossil mammoth and different features of the library. We will then develop presentations about our species and finally present our results to the rest of the class.
+
+9:05-10:20 - Session 1
+
+- Part 1: Library research
+
+10:20-10:30 - Snack Time 
+
+10:30-11:55 - Session 2
+
+- Part 2: Develop presentations
+
+12:00-12:45pm - Lunch @ Pavilion 
+
+1:00-3:15 - Session 3
+
+- 1 - 1:40pm Part 2: Continue to develop presentations
+- 1:40 - 3pm Part 3: Presentations (8 students, 10 minutes per student)
+- 3 - 3:15pm Close, save work, wrap up for the week
+
+## Getting Started
+1. Check out your computers – find the folder titled `Data Science for N&C` and open the folder. 
+2. Open up the file `course_overview.html` in your browser and follow along. There is an `.html` file prepared for each day with instructions for the daily activities.
+3. Make sure to save all your work and files into this same folder each day. 
+

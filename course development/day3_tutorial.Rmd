@@ -1,0 +1,56 @@
+---
+title: "Day 3"
+author: "Val Syverson, with updates by Jessica Blois"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Reminder: Day 3 Schedule
+9:05-10:20 - Session 1
+
+- Part 1: Library research
+
+10:20-10:30 - Snack Time 
+
+10:30-11:55 - Session 2
+
+- Part 2: Develop presentations
+
+12:00-12:45pm - Lunch @ Pavilion 
+
+1:00-3:15 - Session 3
+
+- 1 - 1:40pm Part 2: Continue to develop presentations
+- 1:40 - 3pm Part 3: Presentations (8 students, 10 minutes per student)
+- 3 - 3:15pm Close, save work, wrap up for the week
+
+-----------------------------------------
+
+# Part 1. Additional Research
+
+We will each do some additional research on our chosen species. 
+Then, we will create a short presentation and share our model and our information with our classmates.
+
+# Part 2. Developing your presentations
+
+Information on the presentations can be found in two places:
+
+-  in the main folder, the pptx file: 'student presentation template.pptx'
+-  as a [google slide](https://docs.google.com/presentation/d/1o4f_QJzVbWnPupCB0Mv7D9BHgdHAWNOUGNpuv2k_Oec/edit?usp=sharing)
+
+To complete the presentation, you may need to reload your saved workspaces from Day 2 and Day 3 if you didn't save your plots, or otherwise you can regenerate the plots using the Day 1 and Day 2 tutorials.
+
+# Part 3. Sharing your presentations
+
+Each student will give a short presentation on their chosen species. Each student will have roughly 10 minutes to present their work.
+
+

@@ -1,0 +1,19 @@
+transform_lon <- function(longitude) {
+  result <- longitude
+  k <- which(result < 0)
+  result[k] <- 360 + result[k]
+  return(result)
+}
+
+reload_raster <- function(rasterlayer) {
+  filestring <- paste0(c("temp/",as.character(substitute(rasterlayer)),".tif"),collapse="")
+  writeRaster(rasterlayer, filename = filestring, gdal = "COMPRESS=DEFLATE", overwrite = TRUE)
+  return(raster(rast(filestring)))
+}
+
+statMode <- function(x) {
+  ux <- unique(x)
+  tab <- tabulate(match(x, ux))
+  ux[tab == max(tab)]
+}
+
